@@ -1,4 +1,4 @@
-FROM alpine-openrc-base:latest
+FROM lazaruslongone/alpine-openrc-base:latest
 MAINTAINER lazaruslongone
 
 # non-root user
