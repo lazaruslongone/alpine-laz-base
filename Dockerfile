@@ -10,7 +10,7 @@ RUN apk update && apk add sudo && \
 RUN apk update && \
   apk add openssh bash \
   vim rsync git curl coreutils \
-  gawk sed grep bc
+  gawk sed grep bc go
 
 USER alpiner
 RUN echo "source /etc/profile" > /home/alpiner/.bashrc
