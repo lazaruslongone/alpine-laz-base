@@ -17,3 +17,5 @@ A custom base Alpine Linux image with all the handy tools
 - sed
 - grep
 - bc
+- curl
+- go
